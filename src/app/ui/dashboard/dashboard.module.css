@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    gap: 0.25rem;
+    margin: 0.25rem;
+}
+
+.main {
+    flex: 3;
+}
+
+.cardWrapper {
+    display: flex;
+    gap: 0.25rem;
+    justify-content: space-between;
+}
+
+.side {
+    flex: 1;
+}

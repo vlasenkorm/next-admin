@@ -1,0 +1,10 @@
+.wrapper {
+  background-color: var(--bgSoft);
+  border-radius: 4px;
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+}
+
+.chartWrapper {
+  height: 400px;
+}

@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bgSoft);
+  border-radius: 4px;
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+}
+
+.tableRow:hover {
+  background-color: var(--hover);
+}
+
+.table td {
+  padding: 10px;
+}
+
+.status {
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.done {
+  background-color: rgb(108, 128, 240);
+}
+
+.pending {
+  background-color: rgb(241, 203, 132);
+}
+
+.cancelled {
+  background-color: rgb(252, 112, 112);
+}

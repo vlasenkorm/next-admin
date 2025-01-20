@@ -1,0 +1,44 @@
+.wrapper {
+  background-color: var(--bgSoft);
+  border-radius: 4px;
+  margin: 0.25rem;
+  padding: 0.5rem;
+}
+
+.addButton {
+  padding:0.5rem 1rem ;
+  border-radius: 6px;
+  background-color: rgb(73, 216, 68);
+  color: aliceblue;
+}
+
+.table {
+  width: 100%;
+}
+
+.tableRow:hover {
+  background-color: var(--hover);
+}
+
+.table td {
+  padding: 1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.editBtn {
+  background-color: orange;
+  color: aliceblue;
+  padding:0.5rem 1rem ;
+  border-radius: 6px;
+}
+
+.deleteBtn {
+  background-color: red;
+  color: aliceblue;
+  padding:0.5rem 1rem ;
+  border-radius: 6px;
+}

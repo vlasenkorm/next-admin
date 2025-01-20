@@ -1,0 +1,59 @@
+.modalOverlay {
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBox {
+  display: block;
+  background: white;
+  width: 70%;
+  height: 70%;
+  padding: 1rem;
+  border-radius: 0.1rem;
+}
+
+.close {
+  width: 40px;
+  height: 30px;
+  position: relative;
+}
+
+.close:hover {
+  background: rgb(248, 68, 68);
+}
+
+.close:hover:before {
+  border-color: white;
+}
+
+.close:hover:after {
+  border-color: white;
+}
+
+.close:after {
+  content: "";
+  height: 30px;
+  border-left: 2px solid #000;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 19px;
+  top: 0px;
+}
+
+.close:before {
+  content: "";
+  height: 30px;
+  border-left: 2px solid #000;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 19px;
+  top: 0px;
+}

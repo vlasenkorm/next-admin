@@ -1,0 +1,6 @@
+.wrapper {
+    padding: 10px;
+    background-color: var(--bgSoft);
+    border-radius: 2px;
+    margin-left: 0.25rem;
+}
